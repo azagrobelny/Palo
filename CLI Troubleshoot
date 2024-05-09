@@ -1,0 +1,19 @@
+show system statistics session
+#############################
+System Statistics: ('q' to quit, 'h' for help)
+Device is up : 1 day 10 hours 2 mins 8 sec
+Packet rate : 210136/s
+Throughput : 897290 Kbps
+Total active sessions : 263963
+Active TCP sessions : 195865
+Active UDP sessions : 56704
+Active ICMP sessions : 886
+
+show counter global
+#############################
+
+show session all filter source 10.1.16.100 destination
+#############################
+
+show session id 605974
+#############################
