@@ -1,0 +1,6 @@
+######### Dodanie adresów ###########
+set vsys vsys3 address-group Intune-IP_Group static N-20.191.167.0_25
+
+######### Dodanie do grupy ###########
+set vsys vsys3 address-group Intune-IP_Group static N-20.191.167.0_25
+
