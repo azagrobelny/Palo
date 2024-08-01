@@ -4,3 +4,10 @@ set vsys vsys3 address-group Intune-IP_Group static N-20.191.167.0_25
 ######### Dodanie do grupy ###########
 set vsys vsys3 address-group Intune-IP_Group static N-20.191.167.0_25
 
+ 
+---------------------- Panorama ------------------------
+# Dodanie adresów
+set device-group PA-GRUPA address N-13.67.15.128_27   ip-netmask 13.67.15.128/27
+
+# Dodanie adresów do grupy
+set device-group PA-F3-CEN-RAD address-group Intune-IP_Group static N-13.67.15.128_27
